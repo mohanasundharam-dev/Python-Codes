@@ -602,14 +602,14 @@
 #     else:
 #         pass
 
-num = int (input("Enter a days: "))  
-if num > 0:
-    if num >= 7:
-        week = num // 7
-        day = num % 7
-        print(f"{week} Weeks {day} Days")
-    else:
-        print(f"0 Weeks {num} Days")
+# num = int (input("Enter a days: "))  
+# if num > 0:
+#     if num >= 7:
+#         week = num // 7
+#         day = num % 7
+#         print(f"{week} Weeks {day} Days")
+#     else:
+#         print(f"0 Weeks {num} Days")
     
 # num = int(input("Give a Number: "))
 # if num > 0:
@@ -672,3 +672,11 @@ if num > 0:
 #                 print("zero divisin error!")
 #         else:
 #             print("Give a Valiad Operator!")
+
+a = -19
+b = 127
+a = a^b
+b = a^b
+a = a^b
+print(f"Value of A: {a}")
+print(f"Value of B: {b}")

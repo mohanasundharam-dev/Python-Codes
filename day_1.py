@@ -573,36 +573,7 @@
 #     print("Fail")
 
 
-# names = ["Mo", "Kavi", "Raju", "Sam", "Kumar", "Abi"]
-# search = "Abi"
-# for i in names:
-#     if i == search:
-#         print("Found: Abi")
-#         break
-# else:
-#     print("Not Found: Abi")
-
-# passwords = ["abc", "hello@", "py thon", "secure"] 
-
-# passwords = ["hello",]
-
-# for i in passwords:
-#     if i in " ":
-#         print(f"Skipped (space found): {i}")
-#         continue
-#     elif (len(i) < 6):
-#         print(f"Too Short: {i}")
-#         continue
-#     elif i in "e" :
-#         print(f"Strong password:{i}")
-#         continue
-#     elif len(i) == 6:
-#         print(f"Weak Password: {i}")
-#         continue
-#     else:
-#         pass
-
-# num = int (input("Enter a days: "))  
+# num = int (input(" Enter a days: "))  
 # if num > 0:
 #     if num >= 7:
 #         week = num // 7
@@ -613,7 +584,7 @@
     
 # num = int(input("Give a Number: "))
 # if num > 0:
-#     if (num % 7==0):
+#     if (num % 7 == 0):
 #         print("Divisible by 7")
 #     else:
 #         print("Not divisible by 7")
@@ -627,33 +598,18 @@
 #         else:
 #             print(f"{a} is not a multiple of {b}")
 
-# num = input("Enter a value: ")
+# a = input("Enter a value: ")
 # nums = [1,2,3,4,5,6,7,8,9,0]
-# if (type(num) == str or type(num) == int,float):
-#     if (int(num) in nums):
-#         num = int(num)
-#         if (type(num)==(int or float)):
-#             print("Digit")
-#     else:
-#         if(type(num) == str):
-#             if ( num == num.lower()):
-#                 print("Lowercase Letter")
-#             elif ( num == num.upper()):
-#                 print("Uppercase Letter")
 
-# num = input("Enter a value: ")
-
-# if num.isdigit():
+# if 65 <= ord(a) <= 91:
+#     print("UpperCase")
+# elif 97 <= ord(a) <= 123:
+#     print("LowerCase")
+# elif int(a) in nums:
 #     print("Digit")
-
-# elif num.isalpha():
-#     if num.islower():
-#         print("Lowercase Letter")
-#     elif num.isupper():
-#         print("Uppercase Letter")
 # else:
-#     print("Special Character or Mixed Input")
-
+#     ("Enter a Charracter or Number")
+    
 
 # a = eval(input("Enter a first NUmber: "))
 # b = eval(input("Enter a second Number: "))
@@ -673,10 +629,155 @@
 #         else:
 #             print("Give a Valiad Operator!")
 
-a = -19
-b = 127
-a = a^b
-b = a^b
-a = a^b
-print(f"Value of A: {a}")
-print(f"Value of B: {b}")
+# a = -19
+# b = 127
+# a = a^b
+# b = a^b
+# a = a^b
+# print(f"Value of A: {a}")
+# print(f"Value of B: {b}")
+
+# for i in range(0,4):
+#     for i in range(0,4):
+#         print("*",end="")
+#         if(i == 3):
+#             break
+    # print()
+
+# num = int(input("Enter a number: "))
+# for i in range(0,num):
+#     for i in range(num,0,-1):
+#         print("* ",end="")
+#     print()
+# n1=int(input("Enter a N1: "))
+# n2=int(input("Enter a N2: "))
+# a= int(input("Enter a Break Value: "))
+# for i in range(n1,n2+1):
+#     print(i)
+#     if ( i == a):
+#         break
+# n = int(input("Enter a Multipler: "))
+# for i in range(1,10+1):
+#     print(f"{i}*{n}={i*n}")
+# for i in range(1,11):
+#     if(i==5 or i==7):
+#         continue
+#     print(i)
+
+# n = 121
+# sum = 0
+# while(n>0):
+#     x = n % 10
+#     n = n // 10
+#     sum = (sum*10) + x
+# print(sum)
+# n = 121
+# sum = 0
+# while(n>0):
+#     x = n % 10
+#     n = n // 10
+#     sum = sum + x
+# print(sum)
+
+# a =float(input())
+# print(int(a))
+# print(float(a))
+# print(complex(a))
+# print(str(a))
+
+# a = 76468
+# print(a)
+# print(bin(a))
+# print(oct(a))
+# print(hex(a))
+
+# a = int(10)
+# print(id(a))
+# a = a+10
+# print(id(a))
+
+
+# print(bool([0]))
+# print(bool([]))
+# print(bool(0))
+ 
+# print(bool(""))
+# s = "hello EverYone"
+# l = s.lower()
+# m = s[0].upper()
+# x = s[len(s)-1].upper()
+# o = l.replace(l[0],m)
+# print(o)
+# n = o.replace(o[len(o)-1],x)
+# print(n)
+
+# n = int(input("Enter a number: "))
+# f = 1 
+# s = (n+1)//2 
+# m = s-1    
+# for i in range(1,n+1):
+#     for x in range(f):
+#         if x == m:
+#             f = f - 2
+#             m = m - 1
+#         print("*",end="")
+#     f = f + 1
+#     # for j in range((s-i)):
+#     #     print("_",end="")
+#     print()
+
+# l =[1,2,3,4]
+# n = len(l)
+# a = 0
+# while(n > 0):
+#     print(l[a])
+#     a = a + 1
+#     n = n - 
+
+
+# s = "  Hello Everyone   "
+# print(s.strip())
+# print(s.rstrip())
+# print(s.lstrip())
+
+# print(s.find('o'))
+# print(s.find('E'))
+# print(s.find('m'))
+
+# print(s.rfind('o'))
+# print(s.rfind('E'))
+# print(s.rfind('m'))
+
+# print(s.find('y',2,10))
+# print(s.find('y',-9,-1))
+# print(s.find('y',2,1000))
+
+# print(s.count("o"))
+# print(s.count("e"))
+# print(s.count("z"))
+# print(s.count("on"))
+
+# print(s.count("e",0,7))
+
+# s1=s.replace("o","x")
+# print(s1)
+
+# s1 = "10-11-2025"
+# print(s1.split("-"))
+# s1="Good Morning"
+# print(s1.split())
+
+# c = ["a","b","c"]
+# s = " ".join(c)
+# s = "*".join(c)
+# print(s)
+
+# x = [1,2,3,4,5,6]
+# y = [ 3,4,9,7,8,1]
+# new=[]
+# for i in range(len(x)):
+#     for j in range (len(y)):
+#         if x[i] == y[j]:
+#             new.append(x[i])
+# print(new)
+
